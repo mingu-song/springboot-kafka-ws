@@ -87,7 +87,7 @@ function ChatPage({ username }) {
     };
 
     const handleKeyDown = (event) => {
-        if (event.key === 'Enter' && !event.shiftKey) {
+        if (event.key === 'Enter' && !event.shiftKey && !event.nativeEvent.isComposing) {
             sendMessage();
             event.preventDefault();
         }
