@@ -11,7 +11,8 @@ npm run dev
 ```
 ### backend infra
 * /docker
-* zookeeper + kafka + kafdrop
+* zookeeper + kafka + kafdrop + kafka ui
+* https://devocean.sk.com/blog/techBoardDetail.do?ID=163980
 ```shell
 docker-composer up -d
 ```
